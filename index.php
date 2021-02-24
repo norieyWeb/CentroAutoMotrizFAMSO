@@ -32,10 +32,11 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="Equipo.php">Equipo</a>
-            </li>
+            </li>  
             </ul>  
         </div> 
     </div>  
+    <!-- ############################################################## -->
 
     <!-- ############################################################## -->
     <div class="container col-md-8 margen-arriba" id="puntoDeUbicacionFormulario">

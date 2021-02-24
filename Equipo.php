@@ -37,6 +37,9 @@
         </div> 
     </div>  
 
+        <!-- ############################################################## -->
+
+
     <!-- ############################################################## -->
     <div class="container col-md-8 margen-arriba" id="puntoDeUbicacionFormulario">
         BIENVENIDO EQUIPO:

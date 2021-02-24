@@ -38,6 +38,8 @@
     </div> 
 
     <!-- ############################################################## -->
+
+    <!-- ############################################################## -->
     <div class="container col-md-8 margen-arriba" id="puntoDeUbicacionFormulario">
 
         <form class="flexibleCol" id="primerFormulario">
