@@ -9,7 +9,7 @@
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Centro Automotriz || FAMSO</title>
+<title>Centro Automotriz |Reservas| FAMSO</title>
 <link rel="shortcut icon" href="faviconCentroAutomotriz.ico" type="image/x-icon">
 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="estilos.css">
@@ -20,24 +20,23 @@
 </head>
 
 <body class="fondoBlancoEspecial">
-    <div class="container">
+
+<div class="container">
         <div class="margen-abajo">
             <ul class="nav nav-tabs">
             <li class="nav-item">
-                <a class="nav-link"  href="index.php">Inicio</a>
+                <a class="nav-link" href="index.php">Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Reservas</a>
+                <a class="nav-link active" aria-current="page" href="#">Reservar</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="Equipo.php">Equipo</a>
             </li>
             </ul>  
         </div> 
-    </div>  
+    </div> 
+
     <!-- ############################################################## -->
     <div class="container col-md-8 margen-arriba" id="puntoDeUbicacionFormulario">
 

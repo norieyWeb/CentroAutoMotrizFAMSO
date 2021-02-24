@@ -9,7 +9,7 @@
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Centro Automotriz |Inicio| FAMSO</title>
+<title>Centro Automotriz |Equipo| FAMSO</title>
 <link rel="shortcut icon" href="faviconCentroAutomotriz.ico" type="image/x-icon">
 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="estilos.css">
@@ -25,13 +25,13 @@
         <div class="margen-abajo">
             <ul class="nav nav-tabs">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link" aria-current="page" href="index.php">Inicio</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="ReservaTurno.php">Reservar</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="Equipo.php">Equipo</a>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Equipo</a>
             </li>
             </ul>  
         </div> 
@@ -39,7 +39,7 @@
 
     <!-- ############################################################## -->
     <div class="container col-md-8 margen-arriba" id="puntoDeUbicacionFormulario">
-        BIENVENIDO USUARIO:
+        BIENVENIDO EQUIPO:
         
     </div>
 </div> 
