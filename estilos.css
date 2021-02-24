@@ -1,0 +1,147 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('fuentes/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('fuentes/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('fuentes/poppins/Poppins-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('fuentes/poppins/Poppins-SemiBold.ttf'); 
+}
+
+*{
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html 
+{
+	height: 100%;
+	font-family: Poppins-Regular, sans-serif;
+}
+
+/* .fondoBlancoEspecial
+{
+	background: rgba(236, 227, 227, 0.562);
+} */
+
+input 
+{
+	outline: none;
+	border: none;
+}
+
+button 
+{
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+button:hover 
+{
+	cursor: pointer;
+}
+
+/*-- contenedor del Login--*/
+
+.margen-arriba{
+  margin-top: 10px;
+}
+
+.doble-Margen-arriba{
+	margin-top: 20px;
+  }
+
+.flexibleCol
+{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.flexSpaceAround
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.flexSpaceAroundCenter
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.flexSpaceBetween
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.flexSpaceBetweenCenter
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flexCenter
+{
+	display: flex;
+	justify-content: center;
+}
+
+.flexCenterCenter
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.anchoLogoYAlto
+{
+	width: 15%;
+
+}
+
+.tamaño-Fuente
+{
+	font-size: 14px;
+}
+
+.tamaño-contInput
+{
+	width: 80%;
+}
+
+.none
+{
+	display: none;
+}
+
+/* .anchoBtnUnoUsuario */
+
+.lineaFuera
+{
+	outline: 1px solid red;
+}
+
+@media(max-width:780px)
+{
+	.tamaño-Fuente
+	{
+		font-size: 11px;	
+	}
+}
