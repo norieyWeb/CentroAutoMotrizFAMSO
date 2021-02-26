@@ -24,15 +24,15 @@
 <div class="container">
         <div class="margen-abajo">
             <ul class="nav nav-tabs">
-            <li class="nav-item">
-                <a class="nav-link" href="index.php">Inicio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Reservar</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="Equipo.php">Equipo</a>
-            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Reservar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Equipo.php">Equipo</a>
+                </li>
             </ul>  
         </div> 
     </div> 
@@ -40,9 +40,10 @@
     <!-- ############################################################## -->
 
     <!-- ############################################################## -->
-    <div class="container col-md-8 margen-arriba" id="puntoDeUbicacionFormulario">
+    <div class="container col-md-8 margen-arriba" id="puntoDeUbicacionFormulario" method="POST">
 
-        <form class="flexibleCol" id="primerFormulario">
+        <form class="flexibleCol" id="primerFormulario" method="POST" action="bd/insertar.php">
+        
             <div class="tituloYLogo flexSpaceBetween">
                 <h2>Datos De Usuario</h2>
                 <img src="logoCentroAutomotriz.png" class="anchoLogoYAlto" alt="logoCentroAutomotriz" srcset="">        
@@ -50,8 +51,8 @@
             <div class="grupoNombreApellido flexSpaceAround">
 
                 <div class="form-group "> <!-- Name -->
-                    <label for="full_name" class="labelNombre">Nombre:</label>
-                    <input type="text" class="form-control" id="full_name" name="nombre" placeholder="John Deer">
+                    <label for="campoNombre" class="labelNombre">Nombre:</label>
+                    <input type="text" class="form-control" id="campoNombre" name="nombres" placeholder="John Deer">
                 </div>    
 
                 <div class="form-group "> <!-- Street 1 -->
@@ -98,7 +99,7 @@
             </div>                   
             <!-- ------------------------------------------------------------------------ -->         
             <div class="form-group flexCenterCenter"> Continuar -->
-                <button type="button" id="primerBotonControl" class="btn btn-primary">Go</button>
+                <button type="submit" id="primerBotonControl" class="btn btn-primary" >Go</button>
             </div>
 
         </form>
@@ -303,8 +304,7 @@
 <script src="popper/popper.min.js"></script>    
 
 <script src="plugins/sweetalert2/sweetalert2.all.min.js"></script>    
-<!-- <script src="codigo.js"></script> -->
-<script src="registrosForms.js"></script>
-    
+<!-- <script src="registrosForms.js"></script> -->
+<script src="codigo.js"></script>   
 
 </html>

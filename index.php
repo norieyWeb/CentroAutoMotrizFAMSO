@@ -51,7 +51,7 @@
 
 <script src="plugins/sweetalert2/sweetalert2.all.min.js"></script>    
 <!-- <script src="codigo.js"></script> -->
-<script src="registrosForms.js"></script>
+<!-- <script src="registrosForms.js"></script> -->
     
 
 </html>
